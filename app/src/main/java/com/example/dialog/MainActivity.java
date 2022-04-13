@@ -24,4 +24,15 @@ public class MainActivity extends AppCompatActivity {
         it.setClass(MainActivity.this, DialogActivity.class);
         startActivity(it);
     }
+
+    /**
+     * 显示状态
+     * @param
+     * @return
+     */
+    public void onDialog2(View v) {
+        Intent it = new Intent();
+        it.setClass(MainActivity.this, DialogActivity2.class);
+        startActivity(it);
+    }
 }
